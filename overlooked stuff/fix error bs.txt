@@ -1,0 +1,5 @@
+$env:PATH += ";C:\Users\judof\AppData\Local\CrossFire"
+so just replace the user section with the same thing but for your shitting acc
+
+python main.py --setup 
+run the fucker!
