@@ -1,3 +1,4 @@
+![CrossFire Logo](logo/logo.png)
 # CrossFire
 
 **Universal Package Manager CLI with Enhanced Performance & Module System**
@@ -311,3 +312,4 @@ For issues, feature requests, or contributions, please visit the project reposit
 **CrossFire v6.0f8 - Cosmic (Pre-Release)**  
 
 Production Universal Package Manager CLI with Enhanced Performance & Module Support
+
