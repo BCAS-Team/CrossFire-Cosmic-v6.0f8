@@ -1,4 +1,4 @@
-![CrossFire Logo](logo/ChatGPT Image Sep 24, 2025, 11_15_32 PM.png)
+![CrossFire Logo](https://raw.githubusercontent.com/BCAS-Team/CrossFire-Cosmic-v6.0f8/main/logo/ChatGPT%20Image%20Sep%2024%2C%202025%2C%2011_15_32%20PM.png)
 # CrossFire
 
 **Universal Package Manager CLI with Enhanced Performance & Module System**
@@ -312,5 +312,6 @@ For issues, feature requests, or contributions, please visit the project reposit
 **CrossFire v6.0f8 - Cosmic (Pre-Release)**  
 
 Production Universal Package Manager CLI with Enhanced Performance & Module Support
+
 
 
