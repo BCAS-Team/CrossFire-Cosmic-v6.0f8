@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/BCAS-Team/CrossFire-Cosmic-v6.0f8/main/logo/Logo.png" alt="CrossFire Logo" width="200"/>
+<img src="https://raw.githubusercontent.com/BCAS-Team/CrossFire-Cosmic-v6.0f8/main/logo/Logo1.png" alt="CrossFire Logo" width="200"/>
 
 # CrossFire
 
@@ -313,6 +313,7 @@ For issues, feature requests, or contributions, please visit the project reposit
 **CrossFire v6.0f8 - Cosmic (Pre-Release)**  
 
 Production Universal Package Manager CLI with Enhanced Performance & Module Support
+
 
 
 
