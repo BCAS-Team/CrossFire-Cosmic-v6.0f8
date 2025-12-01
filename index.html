@@ -1,99 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        'primary-dark': '#111827', // A dark gray for primary background
-                        'accent-purple': '#9333ea', // Purple-600 for accents
-                        'accent-purple-hover': '#7e22ce', // Purple-700 for hover
+                        'primary-dark': '#111827',
+                        'accent-purple': '#9333ea',
+                        'accent-purple-hover': '#7e22ce',
                     },
                 }
             }
         }
     </script>
-    <!-- Use a simple placeholder image for the favicon to avoid external link issues in some environments -->
-    <link rel="icon" type="image/png" href="https://placehold.co/32x32/9333ea/ffffff?text=CF">
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/BCAS-Team/CrossFire-Cosmic-v6.0f8/main/logo/Logo1.png">
     <title>CrossFire 6.0f8: You're Early!</title>
 </head>
+
 <body class="bg-gray-900 text-gray-100 min-h-screen p-4 sm:p-6 lg:p-10 font-sans antialiased">
-
-    <!-- Main Content Container -->
     <div class="max-w-4xl mx-auto space-y-8">
-
-        <!-- Header -->
         <header class="pb-6 border-b-2 border-accent-purple">
             <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">
                 CrossFire 6.0f8: Status Update
             </h1>
         </header>
-
         <section class="space-y-4">
             <p class="text-lg">
                 We anticipate the official launch of this website in the near future <strong class="text-accent-purple">(2025/2026)</strong>.
             </p>
-
             <p>
                 The BCAS Team has been diligently working on significant new updates, and we sincerely apologize for the time investment required to reach this stage of development.
             </p>
         </section>
-
-        <!-- Download Buttons -->
         <div class="download-area flex flex-col sm:flex-row gap-4 py-4">
-
-            <!-- Download Executable Button -->
-            <a href="https://github.com/BCAS-Team/CrossFire-Cosmic-v6.0f8/releases/download/Production/CrossFire.exe" 
-               class="flex-1 min-w-0 bg-accent-purple hover:bg-accent-purple-hover text-white py-4 px-6 rounded-lg font-semibold shadow-xl transition duration-200 ease-in-out transform hover:scale-[1.02] active:scale-100 flex flex-col items-center justify-center text-center focus:outline-none focus:ring-4 focus:ring-accent-purple focus:ring-opacity-50">
+            <a href="https://github.com/BCAS-Team/CrossFire-Cosmic-v6.0f8/releases/download/Production/CrossFire.exe" class="flex-1 min-w-0 bg-accent-purple hover:bg-accent-purple-hover text-white py-4 px-6 rounded-lg font-semibold shadow-xl transition duration-200 ease-in-out transform hover:scale-[1.02] active:scale-100 flex flex-col items-center justify-center text-center focus:outline-none focus:ring-4 focus:ring-accent-purple focus:ring-opacity-50">
                 <span class="text-xl">Download Executable</span>
                 <span class="text-sm opacity-90 mt-1">CrossFire.exe</span>
             </a>
-            
-            <!-- Download Source Button -->
-            <a href="https://github.com/BCAS-Team/CrossFire-Cosmic-v6.0f8/archive/refs/tags/Production.zip" 
-               class="flex-1 min-w-0 bg-gray-700 hover:bg-gray-600 text-white py-4 px-6 rounded-lg font-semibold shadow-xl transition duration-200 ease-in-out transform hover:scale-[1.02] active:scale-100 flex flex-col items-center justify-center text-center focus:outline-none focus:ring-4 focus:ring-gray-400 focus:ring-opacity-50">
+            <a href="https://github.com/BCAS-Team/CrossFire-Cosmic-v6.0f8/archive/refs/tags/Production.zip" class="flex-1 min-w-0 bg-gray-700 hover:bg-gray-600 text-white py-4 px-6 rounded-lg font-semibold shadow-xl transition duration-200 ease-in-out transform hover:scale-[1.02] active:scale-100 flex flex-col items-center justify-center text-center focus:outline-none focus:ring-4 focus:ring-gray-400 focus:ring-opacity-50">
                 <span class="text-xl">Download Source</span>
                 <span class="text-sm opacity-90 mt-1">Production.zip</span>
             </a>
-
         </div>
-
-        <!-- Update Section -->
         <div class="update-section bg-gray-800 p-6 rounded-xl shadow-lg border-l-4 border-accent-purple space-y-3">
             <h3 class="text-2xl font-bold text-accent-purple">Current Development Focus: New Modules</h3>
             <p>Our primary focus is currently directed toward the development of <strong class="text-white">five new, highly useful modules</strong> for the CrossFire ecosystem.</p>
-            
+
             <p>Specifically, <strong class="text-accent-purple">PaL-HyperSecure</strong> has been in <strong class="text-white">mass development recently</strong>. We are prioritizing its thorough refinement, and while significant progress has been made, we anticipate it may take another few months until it is ready for a stable public release.</p>
         </div>
-
         <section class="space-y-4">
             <p>Furthermore, we are actively seeking collaboration with other development groups to assist us in our endeavor to create the <strong class="text-white">Ultimate Universal Package Manager</strong>.</p>
         </section>
-
-        <!-- Team Signature and GitHub Link -->
         <footer class="pt-6 border-t border-gray-700 flex flex-col sm:flex-row sm:items-center sm:justify-between">
             <p class="text-gray-400 italic mb-4 sm:mb-0">
                 &mdash; The BCAS Team
             </p>
-
-            <!-- Styled GitHub Link -->
-            <a href="https://github.com/BCAS-Team/CrossFire-Cosmic-v6.0f8/" 
-               class="inline-flex items-center justify-center px-4 py-2 border border-accent-purple text-accent-purple rounded-lg font-medium transition duration-200 
+            <a href="https://github.com/BCAS-Team/CrossFire-Cosmic-v6.0f8/" class="inline-flex items-center justify-center px-4 py-2 border border-accent-purple text-accent-purple rounded-lg font-medium transition duration-200 
                       hover:bg-accent-purple hover:text-white hover:shadow-md focus:outline-none focus:ring-4 focus:ring-accent-purple focus:ring-opacity-50">
                 Return to GitHub
-                <!-- Inline SVG Icon for GitHub -->
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2 -mr-1" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.087-.744.084-.73.084-.73 1.205.084 1.839 1.237 1.839 1.237 1.07 1.835 2.809 1.305 3.493.998.108-.776.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.003.404 2.292-1.552 3.301-1.23 3.301-1.23.653 1.653.242 2.873.117 3.176.766.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.8.576C20.564 21.792 24 17.265 24 12c0-6.627-5.373-12-12-12z"/>
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.087-.744.084-.73.084-.73 1.205.084 1.839 1.237 1.839 1.237 1.07 1.835 2.809 1.305 3.493.998.108-.776.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.003.404 2.292-1.552 3.301-1.23 3.301-1.23.653 1.653.242 2.873.117 3.176.766.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.8.576C20.564 21.792 24 17.265 24 12c0-6.627-5.373-12-12-12z" />
                 </svg>
             </a>
         </footer>
-
     </div>
-
 </body>
+
 </html>
